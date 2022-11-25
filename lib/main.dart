@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
-import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'input_screen.dart';
 import 'confirm_login_screen.dart';
-import 'package:http/http.dart' as http;
 
 String utUser = '';
 String utPwd = '';
