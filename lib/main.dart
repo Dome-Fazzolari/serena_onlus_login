@@ -46,6 +46,7 @@ class InsertimentoDati extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: InputScreen(
       isFirstSetup: true,
     ));
@@ -57,6 +58,8 @@ class ConfermaLogin extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ConfirmLoginScreen());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ConfirmLoginScreen());
   }
 }
